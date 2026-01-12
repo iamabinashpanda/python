@@ -1,0 +1,22 @@
+
+demo using virtual env - python virtual-env
+    python -m venv <virtualenv folder name>
+    pip install scrapy
+    pip install ipython
+
+scrapy library contains -
+engine
+scheduler
+downloader
+spider
+pipeline
+middleware
+    spider middleware
+    downloader middleware
+
+scrapy --help
+    scrapy createproject <projectname>
+    scrapy genspider <spiderclassname>
+    scrapy crawl <spiderclassname>
+
+scrapy shell
